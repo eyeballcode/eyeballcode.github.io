@@ -61,6 +61,8 @@ body {
 
   width: var(--body-width);
   height: var(--body-height);
+
+  z-index: -1;
 }
 
 section {
@@ -190,10 +192,14 @@ section.content header h2 {
   margin: 0;
 }
 
-section.content p {
+section.content > p {
   font-size: 1.3rem;
   max-width: 50ch;
   margin-bottom: 0;
+}
+
+section.content > p:last-child {
+  padding-bottom: 1.5rem;
 }
 
 section#about-me-intro::before {
