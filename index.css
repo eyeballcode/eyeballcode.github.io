@@ -87,10 +87,11 @@ section#hero > h1 {
   color: black;
 
   font-family: "Epilog";
-  font-size: 9vw;
+  font-size: clamp(3rem, 9vw, 7rem);
   line-height: 1;
 
   width: max-content;
+  max-width: 70vw;
 
   padding: 0.25em 0.5em;
   margin: 0;
