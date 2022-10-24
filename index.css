@@ -259,6 +259,7 @@ ul.listing {
 }
 
 ul.listing li {
+  padding-top: 2rem;
   padding-bottom: 1.5rem;
   max-width: 50ch;
 }
