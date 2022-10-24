@@ -236,7 +236,7 @@ section#about-me-outro::before {
 
 section#timeline-intro::before {
   background-image: url(/res/img/timeline-bg-1.jpg);
-  background-position: bottom;
+  background-position: 30% 80%;
   opacity: 0.4;
 }
 
